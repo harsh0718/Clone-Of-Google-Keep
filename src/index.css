@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+.header {
+  background-color: #41e2be;
+  color: white;
+  /* height:20vh; */
+  padding: 25px 20px;
+}
+.header h1 {
+  display: inline-block;
+  cursor: pointer;
+  text-shadow: 2px 3px 4px #2ddcb5;
+}
+.main_note {
+  width: 450px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), 2px 2px 2px rgba(0, 0, 0, 0.3),
+    -2px -2px 2px rgba(0, 0, 0, 0.3), -2px -2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.main_note input {
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.main_note textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.main_note button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center !important;
+  font-weight: normal !important;
+  font-size: 2.5rem;
+  border: none;
+  position: relative;
+  outline: none;
+  top: 40px;
+  left: 410px;
+  background-color: white;
+  color: #41e2be;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), -2px 2px 2px rgba(0, 0, 0, 0.3),
+    2px -2px 2px rgba(0, 0, 0, 0.3), -2px -2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.main_note button:hover {
+  background-color: #41e2be;
+  color: white;
+  box-shadow: none;
+}
+
+.note {
+  width: 200px;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), -2px -2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 25px;
+  padding: 20px 15px 10px 15px;
+  border-radius: 15px;
+  margin: 20px 10px;
+  float: left;
+}
+.note button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: normal !important;
+  font-size: 0.2rem;
+  border: none;
+  position: relative;
+  outline: none;
+  top: 17px;
+  left: 160px;
+  background-color: white;
+  color: #41e2be;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), -2px 2px 2px rgba(0, 0, 0, 0.3),
+    2px -2px 2px rgba(0, 0, 0, 0.3), -2px -2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.note button:hover {
+  background-color: #41e2be;
+  color: white;
+  box-shadow: none;
+}
+.note h2 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
